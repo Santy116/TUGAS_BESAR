@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Walmart Header</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .header {
+            background-color: #0071dc;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .left-section {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        .logo-image {
+            width: 50px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .search-bar {
+            flex-grow: 1;
+            position: relative;
+            max-width: 1400px;
+            margin-right: 40px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 16px;
+            border-radius: 35px;
+            border: none;
+            font-size: 18px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .search-bar button {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 22px;
+            color: gray;
+        }
+        .cart {
+            color: white;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+        .cart-icon {
+            margin-right: 5px;
+            font-size: 22px;
+        }
+        .sub-header {
+            background-color: #005bb5;
+            padding: 15px 20px;
+            color: white;
+            font-size: 16px;
+            text-align: left;
+        }
+        header {
+            background: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+            font-size: 14px;
+        }
+        .hero, .categories, .shopping-ease, .love-beyond-labels {
+            padding: 40px 20px;
+            text-align: center;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .hero h1, .love-beyond-labels h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .hero p, .love-beyond-labels p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        button {
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .discount {
+            display: block;
+            background: black;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .categories h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .category-list {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .category {
+            background: #eee;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .shopping-ease h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        footer {
+        background: #f5f5f5;
+        padding: 30px 50px;
+        font-family: Arial, sans-serif;
+        color: #666;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .footer-section {
+        flex: 1;
+        min-width: 200px;
+        margin-right: 20px;
+    }
+    .footer-section h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-section ul li {
+        font-size: 14px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    .payment-icons img, .social-icons img {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+    .footer-bottom {
+        text-align: left;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <div class="logo">☰</div>
+            <img src="download (2).gif" alt="Logo" class="logo-image">
+            <div class="search-bar">
+                <input type="text" placeholder="Search Walmart">
+                <button>🔍</button>
+            </div>
+        </div>
+        <div class="cart">
+            <span class="cart-icon">🛒</span>
+        </div>
+    </div>
+    <div class="sub-header">How do you want your items?</div>
+    <header>
+        <nav>
+            <ul>
+                <li>Explore (New!)</li>
+                <li>Saved</li>
+                <li>Electronics</li>
+                <li>Motors</li>
+                <li>Fashion</li>
+                <li>Collectibles and Art</li>
+                <li>Sports</li>
+                <li>Health & Beauty</li>
+                <li>Industrial Equipment</li>
+                <li>More</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Limitless love, limitless luxury</h1>
+        <p>Save 15% on luxury fashion accessories for Valentine's Day.</p>
+        <button>Shop luxury</button>
+        <span class="discount">-15% Coupon code: LOVE25LUX</span>
+    </section>
+    <section class="categories">
+        <h2>Explore Popular Categories</h2>
+        <div class="category-list">
+            <div class="category">Save 15% on luxury</div>
+            <div class="category">Sneakers</div>
+            <div class="category">P&A</div>
+            <div class="category">Refurbished</div>
+            <div class="category">Trading cards</div>
+            <div class="category">Pre-loved Luxury</div>
+            <div class="category">Toys</div>
+        </div>
+    </section>
+    <section class="shopping-ease">
+        <h2>Shopping made easy</h2>
+        <p>Enjoy reliability, secure deliveries and hassle-free returns.</p>
+        <button>Start now</button>
+    </section>
+    <section class="love-beyond-labels">
+        <h2>Love beyond labels</h2>
+        <p>Save 15% on luxury fashion accessories that say more than words.</p>
+        <button>Shop luxury</button>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Customer service</h4>
+                <ul>
+                    <li>Help Center</li>
+                    <li>Transaction Services Agreement for non-EU/UK Consumers</li>
+                    <li>Terms and Conditions for EU/EEA/UK Consumers (Transactions)</li>
+                    <li>Take our feedback survey</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Shopping with us</h4>
+                <ul>
+                    <li>Making payments</li>
+                    <li>Delivery options</li>
+                    <li>Buyer Protection</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Collaborate with us</h4>
+                <ul>
+                    <li>Partnerships</li>
+                    <li>Affiliate program</li>
+                    <li>DS Center</li>
+                    <li>Seller Log In</li>
+                    <li>Non-Chinese Seller Registration</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Pay with</h4>
+                <div class="payment-icons">
+                    <img src="image.png" alt="Visa">
+                    <img src="MasterCard-Logo-1979-1990.png" alt="Mastercard">
+                    <img src="OIP.jpeg" alt="American Express">
+                    <img src="PayPal_logo.svg.png" alt="PayPal">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Stay connected</h4>
+                <div class="social-icons">
+                    <img src="E044_color.png" alt="Youtube">
+                    <img src="E043_color.png" alt="Instagram">
+                    <img src="E040_color.png" alt="Twitter">
+                    <img src="E042_color.png" alt="Facebook">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Intellectual Property Protection - Privacy Policy - Sitemap - Terms of Use - Information for EU Consumers - Imprint - Transaction Services Agreement for non-EU/UK Consumers</p>
+            <p>Terms and Conditions for EU/EEA/UK Consumers - User Information Legal Enquiry Guide &copy; 2010-2024 AliExpress.com. All rights reserved.</p>
+            <p>浙公网安备 33010802002248号</p>
+        </div>
+    </footer>
+
+</body>
+</html>
